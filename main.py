@@ -40,8 +40,8 @@ x_UV_ono, y_UV_ono = read_data("UV/22MS003_ono.asc")
 x_UV_cl, y_UV_cl = read_data("UV/22MS003_Cl.asc")
 
 # Plot and save them. The filname should have an extension like "jpg, pdf, etc"
-plot_data(title = "IR spectrometry data for ONO isomer", x_data = x_ono, y_data = y_ono, filename="ono_ir.pdf", stype="IR")
-plot_data(title = "IR spectrometry data for NO2 isomer", x_data = x_no2, y_data = y_no2, filename="no2_ir.pdf", stype="IR")
-plot_data(title = "UV spectrometry data for NO2 isomer", x_data = x_UV_no2, y_data = y_UV_no2, filename="no2_uv.pdf", stype="UV")
-plot_data(title = "UV spectrometry data for ONO isomer", x_data = x_UV_ono, y_data = y_UV_ono, filename="ono_uv.pdf", stype="UV")
-plot_data(title = "UV spectrometry data for something chloride", x_data = x_UV_cl, y_data = y_UV_cl, filename="cl_uv.pdf", stype="UV")
+plot_data(title = "FT-IR spectra for $[Co(NH_3)_5ONO]Cl_2$", x_data = x_ono, y_data = y_ono, filename="ono_ir.pdf", stype="IR")
+plot_data(title = "FT-IR spectra for $[Co(NH_3)_5NO_2]Cl_2$", x_data = x_no2, y_data = y_no2, filename="no2_ir.pdf", stype="IR")
+plot_data(title = "UV-Vis spectra for $[Co(NH_3)_5NO_2]Cl_2$", x_data = x_UV_no2, y_data = y_UV_no2, filename="no2_uv.pdf", stype="UV")
+plot_data(title = "UV-Vis spectra for $[Co(NH_3)_5ONO]Cl_2$", x_data = x_UV_ono, y_data = y_UV_ono, filename="ono_uv.pdf", stype="UV")
+plot_data(title = "UV-Vis spectra for $[Co(NH_3)_5Cl]Cl_2$", x_data = x_UV_cl, y_data = y_UV_cl, filename="cl_uv.pdf", stype="UV")
